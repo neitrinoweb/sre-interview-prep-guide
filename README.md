@@ -51,7 +51,7 @@ Contributions are always welcome!
 - [ ] [strace](https://www.dedoimedo.com/computers/strace.html)
 - [X] [lsof](https://www.dedoimedo.com/computers/lsof.html)
 - [ ] [Linux system debugging](https://www.dedoimedo.com/computers/linux-system-debugging-super.html)
-- [ ] [SaaS where users can test their Linux troubleshooting skills](https://sadservers.com)
+- [X] [SaaS where users can test their Linux troubleshooting skills](https://sadservers.com)
 
 ## Networking
 
