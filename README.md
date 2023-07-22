@@ -14,6 +14,8 @@ Contributions are always welcome!
 
 ## Linux
 
+- [ ] [What every SRE should know about GNU/Linux shell related internals: file descriptors, pipes, terminals, user sessions, process groups and daemons](https://biriukov.dev/docs/fd-pipe-session-terminal/0-sre-should-know-about-gnu-linux-shell-related-internals-file-descriptors-pipes-terminals-user-sessions-process-groups-and-daemons)
+
 ### Boot Process
 
 - [ ] [An introduction to the Linux boot and startup processes](https://opensource.com/article/17/2/linux-boot-and-startup)
@@ -43,6 +45,7 @@ Contributions are always welcome!
 - [ ] [Concurrency and Race Conditions](http://learnlinuxconcepts.blogspot.com/2014/07/concurrency-and-race-conditions.html)
 - [ ] [Memory Leak](https://stackoverflow.com/questions/312069/the-best-memory-leak-definition)
 - [ ] [What is a kernel Panic?](http://learnlinuxconcepts.blogspot.com/2014/07/what-is-kernel-panic.html)
+- [ ] [Book about the linux kernel](https://0xax.gitbooks.io/linux-insides/content)
 
 ### Troubleshooting
 
@@ -55,6 +58,7 @@ Contributions are always welcome!
 
 ## Networking
 
+- [ ] [The Internet explained from first principles](https://explained-from-first-principles.com/internet)
 - [ ] [Network protocols for anyone who knows a programming language](https://www.destroyallsoftware.com/compendium/network-protocols?share_key=97d3ba4c24d21147)
 - [ ] [Introduction to Linux interfaces for virtual networking](https://developers.redhat.com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking)
 - [ ] [Multi-tier load-balancing with Linux](https://vincent.bernat.ch/en/blog/2018-multi-tier-loadbalancer)
@@ -80,6 +84,7 @@ Contributions are always welcome!
 - [ ] [Kubernetes Best Practices 101](https://github.com/diegolnasc/kubernetes-best-practices)
 - [ ] [15 Kubernetes Best Practices Every Developer Should Know](https://spacelift.io/blog/kubernetes-best-practices)
 - [ ] [THE KUBERNETES NETWORKING GUIDE](https://www.tkng.io)
+- [ ] [The life of a DNS query in Kubernetes](https://www.nslookup.io/learning/the-life-of-a-dns-query-in-kubernetes)
 
 ## Infrastructure as code / Configuration management
 
@@ -87,6 +92,7 @@ Contributions are always welcome!
 - [ ] [A Comprehensive Guide to Terraform](https://blog.gruntwork.io/a-comprehensive-guide-to-terraform-b3d32832baca)
 - [ ] [Ansible](https://github.com/leucos/ansible-tuto)
 - [ ] [Getting Started With Terraform on AWS](https://spacelift.io/blog/terraform-tutorial)
+- [ ] [Google Cloud: Best practices for using Terraform](https://cloud.google.com/docs/terraform/best-practices-for-terraform)
 
 ## Databases
 
@@ -99,6 +105,8 @@ Contributions are always welcome!
 - [ ] [Database Replication](https://galeracluster.com/library/documentation/tech-desc-introduction.html#database-replication)
 - [ ] [SQL vs. NoSQL Database: When to Use, How to Choose](https://towardsdatascience.com/datastore-choices-sql-vs-nosql-database-ebec24d56106)
 - [ ] [How do database indexes work?](https://planetscale.com/blog/how-do-database-indexes-work)
+- [ ] [Redis Explained](https://architecturenotes.co/redis)
+- [ ] [Database Sharding Explained](https://architecturenotes.co/database-sharding-explained)
 
 ## CI/CD
 
@@ -124,6 +132,7 @@ Contributions are always welcome!
 
 - [ ] [A tour of Go](https://tour.golang.org)
 - [ ] [Go by Example](https://gobyexample.com)
+- [ ] [Go Tutorials & Examples](https://gosamples.dev)
 - [ ] [Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/)
 - [ ] [Getting up and running with Go](http://www.golangprograms.com)
 - [ ] [Effective Go](https://golang.org/doc/effective_go.html)
@@ -132,6 +141,7 @@ Contributions are always welcome!
 - [ ] [Style Guide](https://google.github.io/styleguide/go/guide)
 - [ ] [Style Decisions](https://google.github.io/styleguide/go/decisions)
 - [ ] [Best Practices](https://google.github.io/styleguide/go/best-practices)
+- [ ] [50 Shades of Go: Traps, Gotchas, and Common Mistakes for New Golang Devs](https://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang)
 
 ### Big O Notation, Algorithms and Data Structures
 
@@ -164,6 +174,16 @@ Contributions are always welcome!
 - [ ] [SLOs & You: A Guide To Service Level Objectives](https://www.circonus.com/2018/07/a-guide-to-service-level-objectives)
 - [ ] [Setting up Service Monitoring — The Why’s and What’s](https://amitosh.medium.com/the-whys-and-what-s-of-setting-up-service-monitoring-cc1c165ee088)
 - [ ] [How NOT to Measure Latency](https://youtu.be/lJ8ydIuPFeU)
+- [ ] [The four Golden Signals of Kubernetes monitoring](https://sysdig.com/blog/golden-signals-kubernetes)
+
+### Prometheus
+
+- [ ] [Introduction to Prometheus](https://training.promlabs.com/training/introduction-to-prometheus/training-overview/introduction)
+- [ ] [Prometheus Relabeling Training](https://training.promlabs.com/training/relabeling/training-overview/prerequisites)
+- [ ] [Avoid These 6 Mistakes When Getting Started With Prometheus](https://promlabs.com/blog/2022/12/11/avoid-these-6-mistakes-when-getting-started-with-prometheus)
+- [ ] [A Deep Dive Into the Four Types of Prometheus Metrics](https://www.timescale.com/blog/four-types-prometheus-metrics-to-collect)
+- [ ] [How Prometheus Querying Works](https://www.timescale.com/blog/how-prometheus-querying-works-and-why-you-should-care)
+- [ ] [PromQL Cheat Sheet](https://promlabs.com/promql-cheat-sheet)
 
 ## Processes
 
@@ -179,6 +199,10 @@ Contributions are always welcome!
 - [ ] [Practical Guide to SRE: Automating On-Call](https://rootly.io/blog/practical-guide-to-sre-automating-on-call)
 - [ ] [Going from Zero to SRE](https://www.squadcast.com/blog/going-from-zero-to-sre)
 - [ ] [An Incident Command Training Handbook](https://blog.danslimmon.com/2019/06/24/an-incident-command-training-handbook)
+- [ ] [Howie guide to post‑incident investigations](https://www.jeli.io/howie/welcome)
+- [ ] [Rundown of LinkedIn’s SRE practices](https://www.srepath.com/rundown-of-linkedins-sre-practices)
+- [ ] [Rundown of Uber’s SRE practice](https://www.srepath.com/rundown-of-uber-sre-practice)
+- [ ] [SRE in the Real World](https://blog.relyabilit.ie/sre-in-the-real-world)
 
 ## Resume
 
@@ -200,6 +224,7 @@ Contributions are always welcome!
 - [ ] [DevOps Guide](https://github.com/Tikam02/DevOps-Guide)
 - [ ] [Questions I ask in SRE interviews](https://dev.to/logan/questions-i-ask-in-sre-interviews-a9j)
 - [ ] [DevOps Roadmap: Learn to become a DevOps Engineer or SRE](https://roadmap.sh/devops)
+- [ ] [The Must-Know Terraform Interview Questions](https://devopsknowledge.hashnode.dev/the-must-know-terraform-interview-questions)
 
 ### Blogposts
 
@@ -210,6 +235,7 @@ Contributions are always welcome!
 - [ ] [Path to Site Reliability Management](https://danrl.com/srm)
 - [ ] [Becoming a Site Reliability Engineer](https://www.tik.dev/blog/becoming-an-sre)
 - [ ] [How I get a job at Google as SRE](https://fabrizio2210.medium.com/how-i-get-a-job-at-google-as-sre-83d44aef7859)
+- [ ] [Become A DevOps Engineer in 2023: [Detailed Guide]](https://devopscube.com/become-devops-engineer)
 
 ## Books
 
